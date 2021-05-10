@@ -14,7 +14,7 @@
 	<name>api-agenda</name>
 	<description>Agenda telefônica</description>
 	<properties>
-		<java.version>9</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -45,12 +45,7 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-		   <plugin>
-                    <groupId>com.heroku.sdk</groupId>
-                    <artifactId>heroku-maven-plugin</artifactId>
-                    <version>2.0.8</version>
-                </plugin>
+		<plugins>		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
