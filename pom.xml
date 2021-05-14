@@ -14,7 +14,7 @@
 	<name>api-agenda-diego</name>
 	<description>Agenda telefônica</description>
 	<properties>
-		<java.version>11.0.11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -32,8 +32,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
@@ -49,11 +49,6 @@
 		        <artifactId>heroku-maven-plugin</artifactId>
 		        <version>3.0.3</version>
 	     	</plugin>
-			<plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-compiler-plugin</artifactId>
-	            <version>3.6.2</version>
-			</plugin>
 		</plugins>
 	</build>
 </project>
